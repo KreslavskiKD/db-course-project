@@ -1,2 +1,12 @@
 # db-course-project
-Github repo for a course project on Data Bases course
+## Github репозитория для проектной работы по курсу "Базы Данных"
+
+### Задание 1
+Предметная область -- спортивные клубы, команды, их игроки и турниры, в которых команды участвуют.
+
+### Задание 2
+a) ![пункт 2а](images/ER-diagram-2a-new.png "Концептуальная модель")
+
+b) ![пункт 2b](images/ER-diagram-2b.png "Логическая модель")
+
+c) ![пункт 2c](images/ER-diagram-2c.png "Физическая модель")
