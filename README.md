@@ -7,6 +7,6 @@
 ### Задание 2
 a) ![пункт 2а](images/ER-diagram-2a-new.png "Концептуальная модель")
 
-b) ![пункт 2b](images/ER-diagram-2b.png "Логическая модель")
+b) ![пункт 2b](images/ER-diagram-2b-new.png "Логическая модель")
 
-c) ![пункт 2c](images/ER-diagram-2c.png "Физическая модель")
+c) ![пункт 2c](images/ER-diagram-2c-new.png "Физическая модель")
