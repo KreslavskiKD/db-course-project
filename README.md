@@ -9,4 +9,4 @@ a) ![пункт 2а](images/ER-diagram-2a-new.png "Концептуальная 
 
 b) ![пункт 2b](images/ER-diagram-2b-new.png "Логическая модель")
 
-c) ![пункт 2c](images/ER-diagram-2c-new.png "Физическая модель")
+c) ![пункт 2c](images/ER-diagram-2c-new-modified.png "Физическая модель")
