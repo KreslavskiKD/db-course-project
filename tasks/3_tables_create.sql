@@ -25,14 +25,10 @@ create table player(
     player_middle_name varchar(50),
     player_birth_date date not null,
     player_current_sport integer,
-    player_city_of_origin integer,
     primary key (player_id),
     constraint fk_player_s
         foreign key (player_current_sport)
-            references sport(sport_id),
-    constraint fk_player_c
-        foreign key (player_city_of_origin)
-            references city(city_id)
+            references sport(sport_id)
 );
 
 drop table if exists club;
@@ -68,7 +64,7 @@ create table team(
 
 drop table if exists team_player;
 create table team_player(
-    player_number integer not null,
+    player_number integer,
     player_id integer,
     team_id integer,
     played_from_date date not null,
@@ -104,6 +100,8 @@ create table match(
     city_id integer,
     team_1_color_set integer,
     team_2_color_set integer,
+    team_1_score integer not null,
+    team_2_score integer not null,
     primary key (match_date, team_1_id, team_2_id),
     constraint fk_match_tournament
         foreign key (match_tournament_id)
